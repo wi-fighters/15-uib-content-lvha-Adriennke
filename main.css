@@ -6,18 +6,50 @@ main {
   margin: 20px;
 }
 
-li, p {
+li,
+p {
   font-size: 20px;
+}
+
+p::first-letter {
+  color: darkorange;
+}
+
+h2+p::first-line {
+  color: yellowgreen;
 }
 
 button {
   background: none repeat scroll 0 0 transparent;
   border: 1px solid black;
   color: black;
-  font-family: 'PT Sans Narrow',sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 16px;
 }
 
+a:link {
+  color: lightskyblue;
+}
+
+a:visited {
+  color: olive;
+}
+
+a:hover {
+  color: rgb(156, 35, 167);
+}
+
+a:active {
+  color: pink;
+}
+
+a.button:hover {
+  color: rgb(219, 18, 18);
+}
+
+a.button:active {
+  color: rgb(42, 226, 42);
+}
 
 /* Task 1 */
 
